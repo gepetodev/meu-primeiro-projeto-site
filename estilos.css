@@ -1,0 +1,47 @@
+/* CAIXA GERAL DA PÁGINA */
+.pagina {
+    width: 550px;       /* Trava a largura total em 550px igual à barra */
+    margin: 0 auto;     /* Centraliza o site na tela (opcional) */
+}
+
+/* 1. CAIXA DO TÍTULO PRINCIPAL */
+.caixa-titulo {
+    width: 550px;                 
+    height: 70px;                 
+    position: relative;           
+    top: 0px;                     
+    left: 0px;                    
+    border: 0px;                  
+    background-color: rgb(102, 58, 87); 
+    padding: 1px;                 
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caixa-titulo h1 {
+    font-family: Arial;           
+    font-size: 26px;              
+    color: white;                 
+    text-indent: 0px;             
+    margin: 0;
+    line-height: 66px;            
+}
+
+/* 2. TÍTULOS SECUNDÁRIOS (h2) */
+h2 {
+    font-family: Arial;           
+    font-size: 18px;              
+    text-align: left;             
+    color: rgb(196, 95, 0);       
+    text-indent: 0px;             
+}
+
+/* 3. PARÁGRAFOS (p) */
+p {
+    font-family: Arial;           
+    font-size: 14px;              
+    text-align: justify;          
+    color: #000000;               
+    text-indent: 50px;            
+}
